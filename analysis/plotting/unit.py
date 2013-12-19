@@ -10,6 +10,7 @@ plt.ion()
 import numpy as np
 from scipy import stats
 
+
 def plot_raw_ampli(self, channels, dataset):
         data = self.read_ch_ampli(channels, dataset)
         # Three subplots sharing both x/y axes
